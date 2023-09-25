@@ -20,5 +20,7 @@
 #' ## Perform the element wise sum
 #' my_sum(x, y)
 my_sum <- function(a, b) {
+    ## Check that a and b are of the same length
+    stopifnot(length(a) == length(b))
     a + b
 }
