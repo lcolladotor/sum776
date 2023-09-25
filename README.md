@@ -93,7 +93,7 @@ Please run this yourself to check for any updates on how to cite
 **sum776**.
 
 ``` r
-print(citation('sum776'), bibtex = TRUE)
+print(citation("sum776"), bibtex = TRUE)
 #> To cite package 'sum776' in publications use:
 #> 
 #>   lcolladotor (2023). _sum766_. doi:10.18129/B9.bioc.sum776
